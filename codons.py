@@ -4,8 +4,19 @@
 # Use a 'for' loop
 
 dna = 'ATAGCGAATATCTCTCATGAGAGGGAA'
-
-# your code goes here
+s = 0
+for c in range(len(dna)):
+    print (dna[c], end = "")
+    if (c - 2) % 3 == 0: print ("\v")
+print (s)
+    
+    
+    
+    
+        
+            
+    
+   
 
 """
 python3 codons.py
