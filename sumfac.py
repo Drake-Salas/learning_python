@@ -7,11 +7,13 @@
 import math
 n = 5
 l = n * 3
+x = 0
 s = 1
 for i in range(1, 6):
-    s = s * i
+    s *= i
+    x += i
     
-print (n, l, s)
+print (n, l, s, x)
 
 
 """
