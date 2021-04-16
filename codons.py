@@ -4,11 +4,11 @@
 # Use a 'for' loop
 
 dna = 'ATAGCGAATATCTCTCATGAGAGGGAA'
-s = 0
+
 for c in range(len(dna)):
     print (dna[c], end = "")
-    if (c - 2) % 3 == 0: print ("\v")
-print (s)
+    if (c - 2) % 3 == 0: print ("")
+
     
     
     
