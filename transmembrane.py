@@ -42,7 +42,7 @@ def ha(sequence, w, t):
             elif f == 'R': count -= 4.5
             elif f == 'E': count -= 3.5
             elif f == 'K': count -= 3.5
-            elif f == 'P': count -= 100
+            elif f == 'P': count -= 1.6
             elif f == 'S': count -= 0.8
             elif f == 'W': count -= 0.9
             elif f == 'Y': count -= 1.3
